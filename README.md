@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17442459.svg)](https://doi.org/10.5281/zenodo.17442459)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17445352.svg)](https://doi.org/10.5281/zenodo.17445352)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 **Software Engineer | AI Researcher | Open Source Contributor**
@@ -36,6 +36,8 @@ A breakthrough system for grounded AI development through the **Grounded Context
 
 These innovations are protected from patent restrictions and remain free for all humanity:
 
+**Foundation (Innovations #1-10):**
+
 - **Mathematical Foundation**: Knowledge representation as a lattice structure
 - **Goal→Transform→Oracle Pattern**: Universal pattern for verifiable AI transformations
 - **Grounded Context Pool (PGC)**: Content-addressable knowledge storage system
@@ -47,9 +49,22 @@ These innovations are protected from patent restrictions and remain free for all
 - **Event-Driven Coherence System**: Real-time PGC synchronization
 - **Claude Code Integration Protocol**: Grounded AI-assisted development
 
+**Security & Provenance (Innovations #11-12):**
+
+- **The Historian Pattern**: O(1) provenance lookup via reverse_deps → transforms
+- **Self-Defending Lattice**: Mathematical resistance to adversarial overlays
+
+**Strategic Intelligence (Innovations #13-15):**
+
+- **Documentation as Knowledge Layer**: Markdown AST → content-addressable PGC objects
+- **Strategic Coherence Overlay**: Semantic alignment scoring between code and mission
+- **Mission-Aware Impact Analysis**: Near-realtime AI fine-tuning (1-3s) for strategic reasoning
+
 ### 💡 Tech Stack
 
-TypeScript • Node.js • AST Parsing • Vector Embeddings • LanceDB • Git-inspired Storage • Claude Code Integration
+- **Core:** TypeScript • Node.js • LanceDB • Git-inspired Storage
+- **Parsing:** Native AST • eGemma (Python) • SLM/LLM fallbacks
+- **AI Integration:** Vector Embeddings • Claude Code Protocol
 
 ---
 
@@ -64,7 +79,7 @@ All innovations in Open Cognition are published under **AGPLv3** and disclosed a
 ## 📫 Connect
 
 - **GitHub**: [@mirzahusadzic](https://github.com/mirzahusadzic)
-- **Email**: mirza.husadzic@proton.me
+- **Email**: <mirza.husadzic@proton.me>
 - **Project**: [CogX Repository](https://github.com/mirzahusadzic/cogx)
 
 ---
