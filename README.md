@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17466998.svg)](https://doi.org/10.5281/zenodo.17466998)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17467151.svg)](https://doi.org/10.5281/zenodo.17467151)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 **Software Engineer | AI Researcher | Open Source Contributor**
@@ -23,7 +23,7 @@ A breakthrough system for grounded AI development through the **Grounded Context
 
 ### 🏆 Recent Achievements
 
-**🎉 [v1.6.0 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v1.6.0)** — The Shadow + Lattice-aware Gaussian Weighting ([DOI: 10.5281/zenodo.17466998](https://zenodo.org/records/17466998))
+**🎉 [v1.6.0 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v1.6.0)** — The Shadow + Lattice-aware Gaussian Weighting ([DOI: 10.5281/zenodo.17467151](https://zenodo.org/records/17467151))
 
 **October 26, 2025** — Breakthrough: Recursive Meta-Cognition & Mission Security Layer:
 
