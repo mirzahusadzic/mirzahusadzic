@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17453691.svg)](https://doi.org/10.5281/zenodo.17453691)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17466998.svg)](https://doi.org/10.5281/zenodo.17466998)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 **Software Engineer | AI Researcher | Open Source Contributor**
@@ -23,7 +23,7 @@ A breakthrough system for grounded AI development through the **Grounded Context
 
 ### 🏆 Recent Achievements
 
-**🎉 [v1.5.2 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v1.5.2)** — Visual Color Theology & Context Sampling Function ([DOI: 10.5281/zenodo.17453691](https://zenodo.org/records/17453691))
+**🎉 [v1.6.0 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v1.6.0)** — The Shadow + Lattice-aware Gaussian Weighting ([DOI: 10.5281/zenodo.17466998](https://zenodo.org/records/17466998))
 
 **October 26, 2025** — Breakthrough: Recursive Meta-Cognition & Mission Security Layer:
 
@@ -83,9 +83,11 @@ These innovations are protected from patent restrictions and remain free for all
 - **Markdown Parser with Meta Properties**: Hierarchical AST with structuralHash and position tracking
 - **Overlay Invalidation System**: Automatic cascade invalidation of dependent overlays
 
-**Post-Publication Additions (Innovation #25):**
+**Post-Publication Additions (Innovations #25-27):**
 
 - **Context Sampling Function (Σ)**: Efficient lattice traversal for relevant knowledge extraction (emerged through Claude Code integration)
+- **Monument 4.7: The Shadow**: Dual embedding system for structural and semantic signatures enabling both code pattern matching and mission alignment queries
+- **Monument 5.1: Lattice-aware Gaussian Weighting**: Pure lattice-based coherence using Gaussian statistics + graph centrality, eliminating all hardcoded constants (weight formula: w = log10(deps+1) × max(0.1, 1.0 + z_score))
 
 ### 💡 Tech Stack
 
