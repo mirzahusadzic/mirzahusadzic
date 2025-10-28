@@ -25,6 +25,19 @@ A breakthrough system for grounded AI development through the **Grounded Context
 
 **🎉 [v1.6.0 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v1.6.0)** — The Shadow + Lattice-aware Gaussian Weighting ([DOI: 10.5281/zenodo.17467151](https://zenodo.org/records/17467151))
 
+**October 28, 2025** — Monument 5.1: Lattice-aware Gaussian Weighting + The Shadow:
+
+- ✅ **Pure Lattice Derivation**: Eliminated all hardcoded constants using Gaussian statistics + graph centrality
+- ✅ **Three-Tier Coherence**: Average (baseline), Weighted (centrality), Lattice (Gaussian + centrality synthesis)
+- ✅ **Noise Filtering**: Automatic exclusion of symbols below μ - σ (statistical noise reduction)
+- ✅ **The Shadow Architecture**: Dual embedding system for structural and semantic signatures
+- ✅ **Verified Results**: 57.7% lattice coherence (+3.0% from baseline)
+
+**October 27, 2025** — Context Sampling Function (Σ):
+
+- ✅ **Efficient Lattice Traversal**: Intelligent knowledge extraction from PGC structure
+- ✅ **Context-Aware Operations**: Emerged through Claude Code integration
+
 **October 26, 2025** — Breakthrough: Recursive Meta-Cognition & Mission Security Layer:
 
 - ✅ **O₃ Layer (Mission Concepts)**: Pattern-based extraction with 6 targeted strategies (97.6% noise reduction: 1,076 → 26 concepts)
