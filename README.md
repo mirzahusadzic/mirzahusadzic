@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17479109.svg)](https://doi.org/10.5281/zenodo.17479109)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17479238.svg)](https://doi.org/10.5281/zenodo.17479238)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 **Software Engineer | AI Researcher | Open Source Contributor**
@@ -66,7 +66,24 @@ The cognition-cli project is open source. I invite you to explore the repository
 
 ---
 
-**🎉 [v1.7.1 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v1.7.1)** — Complete Overlay Architecture Documentation ([DOI: 10.5281/zenodo.17479109](https://zenodo.org/records/17479109))
+**🎯 [v1.7.2 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v1.7.2)** — cPOW Operational Loop Formalization ([DOI: 10.5281/zenodo.17479238](https://zenodo.org/records/17479238))
+
+**October 30, 2025** — Complete G→T→O→cPOW→CoMP Operational Loop:
+
+- ✅ **Complete 8-Phase Loop**: Quest → G→T→O → F.L.T.B → Commit → cPOW → AQS → CoMP → Lattice
+- ✅ **Oracle Validation Gates**: 7 validators (O₂-O₇) act as quality checkpoints in Transform phase
+- ✅ **cPOW Receipts**: Immutable computational proof of work with validation metadata
+- ✅ **Agentic Quality Score (AQS)**: Efficiency × Accuracy × Adaptability scoring for quest performance
+- ✅ **Wisdom Distillation**: High-quality quests (AQS > 0.7) generate reusable patterns (CoMPs)
+- ✅ **Learning Feedback**: CoMPs integrate into lattice, improving future performance
+- ✅ **3 New Validators**: Lineage (O₃), Mission (O₄), Coherence (O₇) in eGemma repo
+- ✅ **Forward Evolution**: Quest_t → CoMP_t → Lattice_t+1 → Quest_t+1 (improved)
+
+**Impact**: Formalized the complete operational loop from user intent to crystallized wisdom. The system can now learn from successful work patterns, maintain quality through Oracle gates, and evolve through forward (non-circular) learning. This closes the G→T→O feedback loop with verifiable computational receipts and autonomous quality improvement.
+
+---
+
+**🎉 [v1.7.1 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v1.7.1)** — Complete Overlay Architecture Documentation
 
 **October 29, 2025** — Beyond Code: Cognitive Healing Mission:
 
