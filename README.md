@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17467151.svg)](https://doi.org/10.5281/zenodo.17467151)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17476619.svg)](https://doi.org/10.5281/zenodo.17476619)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 **Software Engineer | AI Researcher | Open Source Contributor**
@@ -66,7 +66,22 @@ The cognition-cli project is open source. I invite you to explore the repository
 
 ---
 
-**🎉 [v1.6.0 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v1.6.0)** — The Shadow + Lattice-aware Gaussian Weighting ([DOI: 10.5281/zenodo.17467151](https://zenodo.org/records/17467151))
+**🎉 [v1.7.0 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v1.7.0)** — Cognitive Prosthetics: Memory Healing Through Verifiable Architecture ([DOI: 10.5281/zenodo.17476619](https://zenodo.org/records/17476619))
+
+**October 29, 2025** — Beyond Code: Cognitive Healing Mission:
+
+- ✅ **Medical Vision Documented**: Architecture that prevents AI hallucination generalizes to preserving human memory through biological failure
+- ✅ **Cognitive Prosthetics**: External verifiable memory for dementia, Alzheimer's, TBI, age-related decline
+- ✅ **Neural-Memory Protocol (NMP)**: Vendor-agnostic BCI abstraction layer for Neuralink, Synchron, Paradromics
+- ✅ **Identity Preservation**: O₄ Mission layer → preserves personal values, beliefs, sense of self through memory loss
+- ✅ **Cryptographic Verification**: Distinguish real memories from confabulations using content-addressable storage
+- ✅ **Patent-Free Medical Innovation**: Defensive publication ensures memory prosthetics remain open and humanitarian
+
+**Impact**: The same lattice that grounds AI reasoning can heal human consciousness. When biological memory fails through dementia, injury, or age, verifiable external memory can preserve identity, dignity, and the essence of who we are. The architecture exists today. The medical need is urgent. The neural interfaces are coming within 5-10 years.
+
+---
+
+**[v1.6.0 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v1.6.0)** — The Shadow + Lattice-aware Gaussian Weighting
 
 **October 28, 2025** — Monument 5.1: Lattice-aware Gaussian Weighting + The Shadow:
 
