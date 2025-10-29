@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17476619.svg)](https://doi.org/10.5281/zenodo.17476619)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17479109.svg)](https://doi.org/10.5281/zenodo.17479109)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 **Software Engineer | AI Researcher | Open Source Contributor**
@@ -66,7 +66,7 @@ The cognition-cli project is open source. I invite you to explore the repository
 
 ---
 
-**🎉 [v1.7.0 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v1.7.0)** — Cognitive Prosthetics: Memory Healing Through Verifiable Architecture ([DOI: 10.5281/zenodo.17476619](https://zenodo.org/records/17476619))
+**🎉 [v1.7.1 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v1.7.1)** — Complete Overlay Architecture Documentation ([DOI: 10.5281/zenodo.17479109](https://zenodo.org/records/17479109))
 
 **October 29, 2025** — Beyond Code: Cognitive Healing Mission:
 
