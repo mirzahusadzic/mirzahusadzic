@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17479238.svg)](https://doi.org/10.5281/zenodo.17479238)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17489413.svg)](https://doi.org/10.5281/zenodo.17489413)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 **Software Engineer | AI Researcher | Open Source Contributor**
@@ -63,6 +63,23 @@ The cognition-cli project is open source. I invite you to explore the repository
 **The proof is public. The engine is operational.**
 
 🚀 **Get Started**: [Onboarding Docs](https://mirzahusadzic.github.io/cogx/03_Commands.html#_5-setup-onboarding-commands)
+
+---
+
+**🎉 [v1.7.5 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v1.7.5)** — Complete 7-Overlay Lattice System ([DOI: 10.5281/zenodo.17489413](https://zenodo.org/records/17489413))
+
+**October 31, 2025** — The Foundation Manual + Complete Security Layer:
+
+- ✅ **Complete 7-Overlay System**: O₁ (Structure) → O₂ (Security) → O₃ (Lineage) → O₄ (Mission) → O₅ (Operational) → O₆ (Mathematical) → O₇ (Coherence)
+- ✅ **Lattice Algebra**: Query language for cross-overlay Boolean operations (`O1 ∩ O2`, `O2[critical]`, `O4 ~ "verification"`)
+- ✅ **Foundation Manual**: 900+ pages across 8 comprehensive chapters documenting the complete system
+- ✅ **O₂ Security Layer**: 20 real threats, CVE tracking, security coherence metrics, threat model documentation
+- ✅ **Multi-Overlay Routing**: Intelligent document classification (strategic → O₄, security → O₂, operational → O₅, math → O₆)
+- ✅ **Enhanced Wizard**: Generate all 7 overlays in one command with improved UX
+- ✅ **Sugar Commands**: Intuitive CLI access for each overlay (security, workflow, proofs, coherence)
+- ✅ **Performance Optimizations**: Eliminated double embedding, faster overlay generation
+
+**Impact**: The complete 7-layer cognitive lattice is now operational with comprehensive documentation and tooling. This release establishes the full architectural foundation for verifiable AI cognition, from code structure through security, dependencies, mission alignment, operational patterns, mathematical proofs, to cross-layer coherence synthesis.
 
 ---
 
