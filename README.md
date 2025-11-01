@@ -206,11 +206,29 @@ These innovations are protected from patent restrictions and remain free for all
 - **Markdown Parser with Meta Properties**: Hierarchical AST with structuralHash and position tracking
 - **Overlay Invalidation System**: Automatic cascade invalidation of dependent overlays
 
-**Post-Publication Additions (Innovations #25-27):**
+**Post-Publication Additions (Innovations #25-38):**
 
+**Published**: October 27, 2025
 - **Context Sampling Function (Σ)**: Efficient lattice traversal for relevant knowledge extraction (emerged through Claude Code integration)
+
+**Published**: October 28, 2025
 - **Monument 4.7: The Shadow**: Dual embedding system for structural and semantic signatures enabling both code pattern matching and mission alignment queries
 - **Monument 5.1: Lattice-aware Gaussian Weighting**: Pure lattice-based coherence using Gaussian statistics + graph centrality, eliminating all hardcoded constants (weight formula: w = log10(deps+1) × max(0.1, 1.0 + z_score))
+
+**Published**: October 31, 2025
+- **Lattice Algebra System**: Boolean query operations across overlays with ASCII syntax (O1 ∩ O2, O1 ∪ O2, O1 - O2, O2[critical], O4 ~ "verification")
+- **Multi-Overlay Document Routing**: Intelligent document classification using confidence thresholds with automatic overlay generation
+- **Complete 7-Overlay System**: Full implementation of O₁ (Structure), O₂ (Security), O₃ (Lineage), O₄ (Mission), O₅ (Operational), O₆ (Mathematical), O₇ (Coherence)
+- **O₂ Security Layer Full Implementation**: 20 real threats documented in THREAT_MODEL.md, CVE tracking, security coherence metrics
+- **Foundation Manual (900+ pages)**: Eight comprehensive chapters documenting complete system
+- **OverlayRegistry & Sugar Commands**: Dynamic overlay discovery system with intuitive CLI access
+
+**Published**: November 1, 2025
+- **Semantic Q&A System (Block 4 - Self-Cognition)**: Natural language queries across knowledge lattice with cross-overlay synthesis, provenance tracking, and confidence scoring
+- **Frontmatter-Authoritative Classification**: YAML frontmatter metadata treated as ground truth (1.0 confidence) overriding ML-based classification
+- **Generic Documentation Extraction**: WorkflowExtractor generalized for all documentation types with "What is X?" pattern recognition
+- **Quest Operations Logging (Block 2 - Lops)**: Transparency logging infrastructure for quest execution provenance and cPOW lineage tracking
+- **Sacred Pause Formalization**: Oracle Meeting Points documented as three-phase decision framework with depth-based quality gates
 
 ### 💡 Tech Stack
 
