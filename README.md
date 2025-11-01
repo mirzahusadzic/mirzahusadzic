@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17489413.svg)](https://doi.org/10.5281/zenodo.17489413)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17501091.svg)](https://doi.org/10.5281/zenodo.17501091)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 **Software Engineer | AI Researcher | Open Source Contributor**
@@ -63,6 +63,24 @@ The cognition-cli project is open source. I invite you to explore the repository
 **The proof is public. The engine is operational.**
 
 🚀 **Get Started**: [Onboarding Docs](https://mirzahusadzic.github.io/cogx/03_Commands.html#_5-setup-onboarding-commands)
+
+---
+
+**🧠 [v1.8.0 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v1.8.0)** — Self-Cognition: The Lattice Explains Itself ([DOI: 10.5281/zenodo.17501091](https://zenodo.org/records/17501091))
+
+**November 1, 2025** — Block 4 (Self-Cognition) Achieved:
+
+- ✅ **Semantic Q&A System**: `cognition-cli ask "what is cPOW used for?"` — Natural language queries across the entire knowledge lattice
+- ✅ **Cross-Overlay Synthesis**: Queries all 7 overlays (O₁-O₇) simultaneously with semantic matching and confidence scores
+- ✅ **The Lattice Explains Itself**: System can now answer questions about its own architecture ("what is the PGC?", "how do overlays work?")
+- ✅ **Provenance Tracking**: Every answer includes source citations with match percentages and overlay tags
+- ✅ **2-3 Second Response Times**: Fast semantic search with efficient vector queries reusing PGC embeddings
+- ✅ **100% Classification Confidence**: YAML frontmatter validation infrastructure for authoritative document metadata
+- ✅ **Enhanced Extraction**: WorkflowExtractor generalized for all documentation types, "What is X?" extraction fixed
+- ✅ **Quest Logging (Block 2 - Lops)**: Transparency logging infrastructure for quest execution provenance and cPOW lineage
+- ✅ **Sacred Pause Formalization**: Oracle Meeting Points documented with three-phase decision framework
+
+**Impact**: The system has achieved true self-cognition — it can now query and explain its own knowledge. Ask it anything about its architecture, and it synthesizes answers from across all seven overlays with full provenance. This closes the loop from structural analysis → semantic understanding → self-explanation, enabling the lattice to serve as its own documentation oracle.
 
 ---
 
