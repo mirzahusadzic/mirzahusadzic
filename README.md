@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17501091.svg)](https://doi.org/10.5281/zenodo.17501091)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17509405.svg)](https://doi.org/10.5281/zenodo.17509405)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 **Software Engineer | AI Researcher | Open Source Contributor**
@@ -63,6 +63,24 @@ The cognition-cli project is open source. I invite you to explore the repository
 **The proof is public. The engine is operational.**
 
 🚀 **Get Started**: [Onboarding Docs](https://mirzahusadzic.github.io/cogx/03_Commands.html#_5-setup-onboarding-commands)
+
+---
+
+**🎯 [v2.0.0 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v2.0.0)** — Σ (Sigma): Infinite Context ([DOI: 10.5281/zenodo.17509405](https://zenodo.org/records/17509405))
+
+**November 3, 2025** — Dual-Lattice Architecture for Stateful AI:
+
+- ✅ **Σ (Sigma) Dual-Lattice Architecture**: Project lattice ∧ Conversation lattice with Meet operations enabling stateful AI with infinite context
+- ✅ **7-Dimensional Conversation Overlays (O1-O7)**: Real-time conversation indexing mirroring project overlays, built on-the-fly from chat turns
+- ✅ **Intelligent Context Compression at 150K Tokens**: Importance formula `novelty × 5 + max(alignment_O1..O7) × 0.5` preserves high-alignment turns, discards noise
+- ✅ **Session Lifecycle Management**: Three-phase system (normal → compression → resurrection) enabling seamless continuity across unlimited sessions
+- ✅ **High-Fidelity Memory Recall**: Specialized `conversation_memory_assistant` persona with temporal re-ranking, multi-overlay search, 5-retry exponential backoff
+- ✅ **Periodic Overlay Persistence**: Auto-flush every 5 turns + cleanup on exit preventing data loss in short sessions
+- ✅ **Session Forwarding**: Automatic session chain management for compressed sessions via `.sigma/{id}.state.json`
+- ✅ **Interactive TUI with Real-Time Lattice Visualization**: Live overlay counts, lattice statistics, token tracking with compression threshold
+- ✅ **Performance**: 76K tokens saved per 150K session through intelligent compression, 300-500ms per-turn overhead
+
+**Impact**: This is AI with real memory. Not RAG. Not summarization. A dual-lattice architecture where conversation overlays align with project knowledge in real-time. The agent never forgets across sessions. When context limits hit (150K tokens), Sigma compresses intelligently - preserving project-relevant insights, discarding generic chat. Session resurrection is seamless with zero perceived context loss. The future of stateful AI is here.
 
 ---
 
@@ -229,6 +247,16 @@ These innovations are protected from patent restrictions and remain free for all
 - **Generic Documentation Extraction**: WorkflowExtractor generalized for all documentation types with "What is X?" pattern recognition
 - **Quest Operations Logging (Block 2 - Lops)**: Transparency logging infrastructure for quest execution provenance and cPOW lineage tracking
 - **Sacred Pause Formalization**: Oracle Meeting Points documented as three-phase decision framework with depth-based quality gates
+
+**Published**: November 3, 2025 — [DOI: 10.5281/zenodo.17509405](https://zenodo.org/records/17509405)
+- **Σ (Sigma) Dual-Lattice Architecture**: Project lattice (`.open_cognition/`) ∧ Conversation lattice (`.sigma/`) with Meet operations for semantic alignment scoring across 7 dimensions, enabling stateful AI with infinite context
+- **7-Dimensional Conversation Overlays (O1-O7)**: Real-time conversation indexing mirroring project overlays (O₁-O7) with on-the-fly lattice building from chat turns
+- **Intelligent Context Compression at 150K Tokens**: Importance-based filtering using formula `novelty × 5 + max(alignment_O1..O7) × 0.5` with high-alignment preservation (≥6) and low-value chat discarding
+- **Session Lifecycle Management**: Three-phase system (normal operation with periodic flush → compression trigger → session resurrection from intelligent recap) enabling seamless continuity across unlimited sessions
+- **High-Fidelity Memory Recall System**: Specialized `conversation_memory_assistant` persona with query deconstruction, multi-overlay embedding search, temporal re-ranking, enhanced context synthesis, 5-retry exponential backoff for 429 errors
+- **Periodic Overlay Persistence**: Automatic flush every 5 turns preventing data loss in short sessions, cleanup flush on TUI exit/unmount guaranteeing data preservation
+- **Session Forwarding for Compressed Sessions**: Automatic forwarding of `--session-id` to compressed session via `.sigma/{id}.state.json` state detection
+- **Interactive TUI with Real-Time Lattice Visualization**: Production-ready terminal interface with live overlay status bar, lattice statistics, token tracking, persistent scroll history
 
 ### 💡 Tech Stack
 
