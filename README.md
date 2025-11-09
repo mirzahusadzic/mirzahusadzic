@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17509405.svg)](https://doi.org/10.5281/zenodo.17509405)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17567109.svg)](https://doi.org/10.5281/zenodo.17567109)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 **Software Engineer | AI Researcher | Open Source Contributor**
@@ -23,46 +23,23 @@ A breakthrough system for grounded AI development through the **Grounded Context
 
 ### 🏆 Recent Achievements
 
-**🚀 October 28, 2025** — **FIRST-EVER Full-Stack Analysis of a Production Application with Grounded Context Pool (PGC)**
+**🎯 [v2.2.0 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v2.2.0)** — Stability & Performance ([DOI: 10.5281/zenodo.17567109](https://zenodo.org/records/17567109))
 
-I'm thrilled to announce a foundational milestone in verifiable AI cognition. The cognition-cli tool, powered by the Grounded Context Pool (PGC) engine, has successfully completed the first full-stack analysis of a production-grade software project.
+**November 9, 2025** — 105 commits of critical bug fixes and garbage collection improvements:
 
-This represents the critical leap for PGC from a theoretical model to a validated, field-tested reality on a complex, real-world system.
+- ✅ **Critical Document GC Fix**: Scan overlays without manifests directly (security_guidelines, operational_patterns, mathematical_proofs)
+- ✅ **Orphaned Document Cleanup**: Automatic detection and removal of 150+ orphaned document objects via transform logs
+- ✅ **Session State Bloat Fix**: Eliminated 1,237 duplicate expiration entries with useRef + deduplication (6,216 lines → 37 lines)
+- ✅ **GC Phase 5 Enhancement**: Check all 7 overlays before deletion (was only 4/7), bidirectional protection with both sourceHash and symbolStructuralDataHash
+- ✅ **Overlay Alignment Scores Fixed**: All overlays now read correct scores (O1-O7) instead of hardcoded alignment_O1
+- ✅ **Extended Thinking Mode**: Support up to 10K thinking tokens for complex reasoning via --max-thinking-tokens
+- ✅ **OAuth Token Expiration Handling**: Graceful token refresh in TUI
+- ✅ **LanceDB Optimizations**: .sigma reduced from 550 MB → ~5 MB through mergeInsert, embedding cleanup, and compaction
+- ✅ **TUI Improvements**: Fixed lattice display, input filter, colorful output, overlay score computation
 
-**🔬 The Subject: A Real-World Polyglot Application**
+**Impact**: This release eliminates critical data integrity bugs that were causing wasted embedding API calls and state file bloat. The document GC now correctly handles overlays without manifest files, garbage collection properly checks all 7 overlays, and session state remains clean across compressions. Combined with LanceDB optimizations, this delivers production-ready stability with significantly reduced storage overhead.
 
-The analysis was performed on a sophisticated, full-stack application featuring:
-
-- A Python backend for core business logic, data persistence, and machine learning
-- A TypeScript/JavaScript frontend for the user interface and API clients
-- A clean, modern 3-tier architecture with a centralized infrastructure hub
-
-This project served as the perfect testbed to prove PGC's ability to navigate the complexities of a real-world, multi-language codebase.
-
-**📈 Key Verifiable Findings**
-
-Using the latest innovations in PGC, including Structural Pattern Recognition and Lattice-aware Gaussian Weighting, the analysis yielded profound, data-driven insights into the application's architectural health:
-
-- Identified 226 structural patterns, creating a complete architectural fingerprint
-- Validated the core business logic engine with a 71.1% mission coherence score, proving strong alignment between implementation and intent
-- Confirmed an isolated ML training pipeline with the highest alignment in the system at 73.5%
-- Quantified the "blast radius" of critical infrastructure components, turning abstract risk into a measurable metric
-
-**🚀 Why This Is a Breakthrough**
-
-This is the first time a complete production application has been analyzed with a verifiable, AI-driven cognition system. It proves that:
-
-- **PGC Works on Real Code**: It can handle the complexity of a production environment, not just a curated repository
-- **Mission Coherence is Measurable**: We can now augment subjective architectural reviews with a quantifiable, statistically rigorous score
-- **Hallucination-Free Analysis is Possible**: The entire report was generated from a structural and semantic lattice, providing a grounded truth for safe AI reasoning
-
-This is the beginning of a new paradigm where we can see, measure, and guide the evolution of our systems with unprecedented clarity.
-
-The cognition-cli project is open source. I invite you to explore the repository and begin analyzing your own projects.
-
-**The proof is public. The engine is operational.**
-
-🚀 **Get Started**: [Onboarding Docs](https://mirzahusadzic.github.io/cogx/03_Commands.html#_5-setup-onboarding-commands)
+**Dual-Claude Development**: This release was built using a novel dual-Claude workflow where two AI agents (COGNITION Σ CLI Claude + Claude Code 2.0) collaborated on implementation and mutual code review, achieving multiple 10/10 peer reviews and discovering critical bugs through systematic cross-validation.
 
 ---
 
