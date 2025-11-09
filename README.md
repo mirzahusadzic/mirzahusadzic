@@ -19,18 +19,24 @@ Building the future of verifiable AI cognition
 
 [📚 Documentation](https://mirzahusadzic.github.io/cogx/) | [💻 Repository](https://github.com/mirzahusadzic/cogx) | [📄 Prior Art Publication](https://github.com/mirzahusadzic/cogx/blob/main/DEFENSIVE_PUBLICATION.md)
 
-The COGNITION Σ CLI enables stateful AI with infinite context through dual-lattice architecture: Project knowledge (PGC) ∧ Conversation memory (Σ). Cryptographically verified, context-aware, hallucination-free AI reasoning over your entire codebase with seamless memory across unlimited sessions.
+**CogX** is an architectural blueprint for verifiable AI-human symbiosis built on a formal mathematical truth: **Knowledge IS a lattice**.
 
-### 🤔 What is CogX?
+Every act of reasoning reduces to two primitive operations—**Meet (∧): finding common ground** and **Join (∨): building higher understanding**. The Grounded Context Pool (PGC) is the first executable implementation of this formal theory, providing cryptographically verifiable, persistent memory that enables AI systems to augment, rather than replace, human intelligence.
 
-CogX is a verifiable AI cognition system that enables AI assistants to understand and reason over entire codebases with cryptographic guarantees. It combines a knowledge graph architecture (PGC), multi-dimensional analysis overlays, and stateful memory (Σ) into a production-ready framework. Unlike traditional AI coding assistants that forget context or hallucinate facts:
+### The Architecture
 
-- **Verifiable Truth**: Every fact is cryptographically verified and traceable to source code
-- **Infinite Context**: AI maintains perfect memory across unlimited conversation sessions through intelligent compression
-- **7-Dimensional Analysis**: Analyzes structure, security, dependencies, mission alignment, workflows, mathematical proofs, and strategic coherence
-- **Production Ready**: Successfully analyzed 55K+ line production codebases with zero hallucinations
+**Dual-Lattice System:**
+- **Project Lattice (PGC)**: Content-addressable knowledge graph with 7-dimensional overlays (Structure, Security, Lineage, Mission, Operational, Mathematical, Coherence)
+- **Conversation Lattice (Σ)**: Real-time conversation indexing with intelligent compression, enabling infinite context across unlimited sessions
 
-The COGNITION Σ CLI provides interactive access to the system, but CogX is fundamentally an architecture for grounding AI reasoning in verifiable truth.
+**Mathematical Foundation:**
+- Every dependency query is a **Meet (∧)** operation traversing to common ancestors
+- Every synthesis is a **Join (∨)** operation building higher abstractions
+- Knowledge compounds through lattice algebra: `O1 ∩ O2`, `O4 ~ "verification"`
+
+**The Goal:** Accelerate human progress by providing mathematical foundations for AI systems that augment human intelligence with cryptographically verified, persistent understanding.
+
+The **COGNITION Σ CLI** provides interactive access to this architecture through a production-ready terminal interface.
 
 ### 🚀 Getting Started
 
