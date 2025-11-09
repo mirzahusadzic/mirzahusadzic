@@ -21,6 +21,25 @@ Building the future of verifiable AI cognition
 
 The COGNITION Σ CLI enables stateful AI with infinite context through dual-lattice architecture: Project knowledge (PGC) ∧ Conversation memory (Σ). Cryptographically verified, context-aware, hallucination-free AI reasoning over your entire codebase with seamless memory across unlimited sessions.
 
+### 🤔 What is CogX?
+
+CogX is a verifiable AI cognition system that enables AI assistants to understand and reason over entire codebases with cryptographic guarantees. It combines a knowledge graph architecture (PGC), multi-dimensional analysis overlays, and stateful memory (Σ) into a production-ready framework. Unlike traditional AI coding assistants that forget context or hallucinate facts:
+
+- **Verifiable Truth**: Every fact is cryptographically verified and traceable to source code
+- **Infinite Context**: AI maintains perfect memory across unlimited conversation sessions through intelligent compression
+- **7-Dimensional Analysis**: Analyzes structure, security, dependencies, mission alignment, workflows, mathematical proofs, and strategic coherence
+- **Production Ready**: Successfully analyzed 55K+ line production codebases with zero hallucinations
+
+The COGNITION Σ CLI provides interactive access to the system, but CogX is fundamentally an architecture for grounding AI reasoning in verifiable truth.
+
+### 🚀 Getting Started
+
+CogX requires thoughtful onboarding to build the knowledge graph for your project. The setup involves code analysis, embedding generation, and overlay construction.
+
+📚 [Full Documentation](https://mirzahusadzic.github.io/cogx/) | 🎓 [Getting Started Guide](https://mirzahusadzic.github.io/cogx/03_Getting_Started.html)
+
+---
+
 ### 🏆 Recent Achievements
 
 **🎯 [COGNITION Σ CLI v2.2.0 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v2.2.0)** — Stability & Performance ([DOI: 10.5281/zenodo.17567109](https://zenodo.org/records/17567109))
@@ -39,13 +58,29 @@ The COGNITION Σ CLI enables stateful AI with infinite context through dual-latt
 
 **Impact**: This release eliminates critical data integrity bugs that were causing wasted embedding API calls and state file bloat. The document GC now correctly handles overlays without manifest files, garbage collection properly checks all 7 overlays, and session state remains clean across compressions. Combined with LanceDB optimizations, this delivers production-ready stability with significantly reduced storage overhead.
 
-**Dual-Claude Development**: This release was built using a novel dual-Claude workflow where two AI agents (COGNITION Σ CLI Claude + Claude Code 2.0) collaborated on implementation and mutual code review, achieving multiple 10/10 peer reviews and discovering critical bugs through systematic cross-validation.
+**Development Methodology**: This release demonstrates a novel AI-assisted development workflow using dual AI agents for implementation and peer review, achieving rigorous code quality through systematic cross-validation and discovering critical edge cases missed by single-agent analysis.
 
 ---
 
-### 🔬 Innovations Disclosed as Prior Art
+### ✨ Key Features
 
-These innovations are protected from patent restrictions and remain free for all humanity:
+- **🔒 Cryptographic Verification**: Content-addressable storage with SHA-256 hashes ensures every fact is traceable and tamper-proof
+- **🧠 Dual-Lattice Memory**: Project knowledge (PGC) meets conversation memory (Σ) for context-aware AI with infinite memory
+- **📊 7-Dimensional Analysis**: Multi-overlay system analyzes structure, security, dependencies, mission, operations, proofs, and coherence
+- **🔄 Intelligent Compression**: Preserves high-value insights while discarding noise when approaching context limits (150K tokens)
+- **⚡ Production Scale**: Successfully analyzed 55K+ line codebases with sub-second semantic queries
+- **🛡️ Self-Defending Architecture**: Mathematical resistance to adversarial inputs and semantic drift detection
+
+---
+
+### 🔬 Innovations & Prior Art
+
+**38 innovations** disclosed as defensive prior art (AGPLv3) to ensure they remain free for all humanity. No entity may patent these innovations.
+
+<details>
+<summary><b>📜 View Complete Innovation List (Innovations #1-38)</b></summary>
+
+<br>
 
 **Foundation (Innovations #1-10):**
 
@@ -113,6 +148,10 @@ These innovations are protected from patent restrictions and remain free for all
 - **Periodic Overlay Persistence**: Automatic flush every 5 turns preventing data loss in short sessions, cleanup flush on TUI exit/unmount guaranteeing data preservation
 - **Session Forwarding for Compressed Sessions**: Automatic forwarding of `--session-id` to compressed session via `.sigma/{id}.state.json` state detection
 - **Interactive TUI with Real-Time Lattice Visualization**: Production-ready terminal interface with live overlay status bar, lattice statistics, token tracking, persistent scroll history
+
+</details>
+
+---
 
 ### 💡 Tech Stack
 
