@@ -48,23 +48,22 @@ CogX requires thoughtful onboarding to build the knowledge graph for your projec
 
 ### 🏆 Recent Achievements
 
-**🎯 [COGNITION Σ CLI v2.2.0 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v2.2.0)** — Stability & Performance ([DOI: 10.5281/zenodo.17567109](https://zenodo.org/records/17567109))
+**🎯 [COGNITION Σ CLI v2.4.0 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v2.4.0)** — Production Excellence
 
-**November 9, 2025** — critical bug fixes and garbage collection improvements:
+**November 16, 2025** — Major stability and performance milestone:
 
-- ✅ **Critical Document GC Fix**: Scan overlays without manifests directly (security_guidelines, operational_patterns, mathematical_proofs)
-- ✅ **Orphaned Document Cleanup**: Automatic detection and removal of 150+ orphaned document objects via transform logs
-- ✅ **Session State Bloat Fix**: Eliminated 1,237 duplicate expiration entries with useRef + deduplication (6,216 lines → 37 lines)
-- ✅ **GC Phase 5 Enhancement**: Check all 7 overlays before deletion (was only 4/7), bidirectional protection with both sourceHash and symbolStructuralDataHash
-- ✅ **Overlay Alignment Scores Fixed**: All overlays now read correct scores (O1-O7) instead of hardcoded alignment_O1
-- ✅ **Extended Thinking Mode**: Support up to 10K thinking tokens for complex reasoning via --max-thinking-tokens
-- ✅ **OAuth Token Expiration Handling**: Graceful token refresh in TUI
-- ✅ **LanceDB Optimizations**: .sigma reduced from 550 MB → ~5 MB through mergeInsert, embedding cleanup, and compaction
-- ✅ **TUI Improvements**: Fixed lattice display, input filter, colorful output, overlay score computation
+- 🔥 **Critical Compression Fix**: Compression time reduced from **5-10 minutes to instant** (0.0s) via fast-path reconstruction, session filtering, and async compression
+- 🔥 **Session Lifecycle Fix**: Resolved TUI failing to create new session after compression (moved resetResumeSession to finally block)
+- ✨ **Shell Tab Completion**: Full bash/zsh/fish support with context-aware completions for 40+ commands, overlay types, and paths
+- ✨ **Comprehensive UX Improvements**: `--no-color`, `--no-emoji`, `--format`, `-v/--verbose`, `-q/--quiet` flags with auto-detection of terminal capabilities
+- ✨ **Custom Error Hierarchy**: Structured error types (PGCError, ValidationError, NotFoundError, etc.) with recovery suggestions and error codes
+- 🧪 **120+ New Tests**: Comprehensive test coverage for security (CVE fixes), compression performance, command execution, and error handling
+- 🔒 **Security Fix**: Resolved CVE-2025-64718 in js-yaml (4.1.0 → 4.1.1)
+- 📚 **Documentation Overhaul**: 23 dead links fixed, comprehensive changelog, and improved inline documentation
 
-**Impact**: This release eliminates critical data integrity bugs that were causing wasted embedding API calls and state file bloat. The document GC now correctly handles overlays without manifest files, garbage collection properly checks all 7 overlays, and session state remains clean across compressions. Combined with LanceDB optimizations, this delivers production-ready stability with significantly reduced storage overhead.
+**Impact**: Major stability and performance milestone. Compression now completes instantly instead of blocking for 5-10 minutes. Enhanced developer experience with tab completion, accessibility flags, and graceful terminal degradation. Production-ready error handling with actionable recovery paths.
 
-**Development Methodology**: This release demonstrates a novel AI-assisted development workflow using dual AI agents for implementation and peer review, achieving rigorous code quality through systematic cross-validation and discovering critical edge cases missed by single-agent analysis.
+**Previous Releases**: [v2.2.0 - Stability & Performance](https://github.com/mirzahusadzic/cogx/releases/tag/v2.2.0) | [v2.0.0 - Σ (Sigma) Infinite Context](https://github.com/mirzahusadzic/cogx/releases/tag/v2.0.0)
 
 ---
 
