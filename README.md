@@ -48,27 +48,28 @@ CogX requires thoughtful onboarding to build the knowledge graph for your projec
 
 ### 🏆 Recent Achievements
 
-**🎯 [COGNITION Σ CLI v2.4.0 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v2.4.0)** — Production Excellence
+**🎯 [COGNITION Σ CLI v2.5.0 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v2.5.0)** — Multi-Provider LLM Architecture
 
-**November 16, 2025** — Major stability and performance milestone:
+**November 23, 2025** — Transformative release establishing multi-provider platform:
 
-- 🔥 **Critical Compression Fix**: Compression time reduced from **5-10 minutes to instant** (0.0s) via fast-path reconstruction, session filtering, and async compression
-- 🔥 **Session Lifecycle Fix**: Resolved TUI failing to create new session after compression (moved resetResumeSession to finally block)
-- ✨ **Shell Tab Completion**: Full bash/zsh/fish support with context-aware completions for 40+ commands, overlay types, and paths
-- ✨ **Comprehensive UX Improvements**: `--no-color`, `--no-emoji`, `--format`, `-v/--verbose`, `-q/--quiet` flags with auto-detection of terminal capabilities
-- ✨ **Custom Error Hierarchy**: Structured error types (PGCError, ValidationError, NotFoundError, etc.) with recovery suggestions and error codes
-- 🧪 **120+ New Tests**: Comprehensive test coverage for security (CVE fixes), compression performance, command execution, and error handling
-- 🔒 **Security Fix**: Resolved CVE-2025-64718 in js-yaml (4.1.0 → 4.1.1)
-- 📚 **Documentation Overhaul**: 23 dead links fixed, comprehensive changelog, and improved inline documentation
+- 🚀 **Full Gemini ADK Agent Integration**: Google Gemini joins Claude as first-class provider with multi-turn BIDI streaming, tool execution, and memory recall
+- 🏗️ **LLM Provider Abstraction Layer**: Future-proof pluggable architecture enabling easy addition of new LLM providers with standardized interfaces
+- 🤖 **Enhanced Claude Integration**: Thinking blocks visualization, API key authentication (`ANTHROPIC_API_KEY`), optional SDK for licensing flexibility
+- 🎨 **TUI Improvements**: Multiline input support, ESC interrupt for aborting responses, improved paste handling, dynamic provider display
+- 🛡️ **Tool Permission System**: Integrated permission callbacks for safe tool execution across all providers
+- 🛠️ **SDK Error Handling**: Graceful handling of OAuth failures, no process.exit(1) crashes, benign JSON parsing error tolerance
+- ⚙️ **Provider Management**: Dynamic loading, health checks, persistent default provider configuration
+- 📝 **Comprehensive Documentation**: TUI components, provider abstraction details, developer guides for custom providers
 
-**Impact**: Major stability and performance milestone. Compression now completes instantly instead of blocking for 5-10 minutes. Enhanced developer experience with tab completion, accessibility flags, and graceful terminal degradation. Production-ready error handling with actionable recovery paths.
+**Impact**: Both Claude and Gemini now work at full capability with unified UX. Sets foundation for future LLM integrations with extensible architecture.
 
-**Previous Releases**: [v2.2.0 - Stability & Performance](https://github.com/mirzahusadzic/cogx/releases/tag/v2.2.0) | [v2.0.0 - Σ (Sigma) Infinite Context](https://github.com/mirzahusadzic/cogx/releases/tag/v2.0.0)
+**Previous Releases**: [v2.4.2 - Documentation & Stability](https://github.com/mirzahusadzic/cogx/releases/tag/v2.4.2) | [v2.4.0 - Production Excellence](https://github.com/mirzahusadzic/cogx/releases/tag/v2.4.0) | [v2.0.0 - Σ (Sigma) Infinite Context](https://github.com/mirzahusadzic/cogx/releases/tag/v2.0.0)
 
 ---
 
 ### ✨ Key Features
 
+- **🤖 Multi-Provider LLM Support**: Claude (Anthropic) and Gemini (Google) with unified UX, thinking blocks, and extensible architecture for future providers
 - **🔒 Cryptographic Verification**: Content-addressable storage with SHA-256 hashes ensures every fact is traceable and tamper-proof
 - **🧠 Dual-Lattice Memory**: Project knowledge (PGC) meets conversation memory (Σ) for context-aware AI with infinite memory
 - **📊 7-Dimensional Analysis**: Multi-overlay system analyzes structure, security, dependencies, mission, operations, proofs, and coherence
