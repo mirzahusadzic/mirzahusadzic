@@ -54,7 +54,7 @@ CogX requires thoughtful onboarding to build the knowledge graph for your projec
 
 - 🚀 **Full Gemini ADK Agent Integration**: Google Gemini joins Claude as first-class provider with multi-turn BIDI streaming, tool execution, and memory recall
 - 🏗️ **LLM Provider Abstraction Layer**: Future-proof pluggable architecture enabling easy addition of new LLM providers with standardized interfaces
-- 🤖 **Enhanced Claude Integration**: Thinking blocks visualization, API key authentication (`ANTHROPIC_API_KEY`), optional SDK for licensing flexibility
+- 🤖 **Enhanced Claude Integration**: Thinking blocks visualization, API key authentication, optional SDK for licensing flexibility
 - 🎨 **TUI Improvements**: Multiline input support, ESC interrupt for aborting responses, improved paste handling, dynamic provider display
 - 🛡️ **Tool Permission System**: Integrated permission callbacks for safe tool execution across all providers
 - 🛠️ **SDK Error Handling**: Graceful handling of OAuth failures, no process.exit(1) crashes, benign JSON parsing error tolerance
