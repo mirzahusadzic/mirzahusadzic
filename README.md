@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17567109.svg)](https://doi.org/10.5281/zenodo.17567109)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17807587.svg)](https://doi.org/10.5281/zenodo.17807587)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 **Software Engineer | AI Researcher | Open Source Contributor**
@@ -48,22 +48,20 @@ CogX requires thoughtful onboarding to build the knowledge graph for your projec
 
 ### 🏆 Recent Achievements
 
-**🎯 [COGNITION Σ CLI v2.5.0 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v2.5.0)** — Multi-Provider LLM Architecture
+**🎯 [COGNITION Σ CLI v2.6.0 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v2.6.0)** — Multi-Agent Collaboration (Innovation #47)
 
-**November 23, 2025** — Transformative release establishing multi-provider platform:
+**December 3, 2025** — Platform transformation from single-agent to multi-agent coordination:
 
-- 🚀 **Full Gemini ADK Agent Integration**: Google Gemini joins Claude as first-class provider with multi-turn BIDI streaming, tool execution, and memory recall
-- 🏗️ **LLM Provider Abstraction Layer**: Future-proof pluggable architecture enabling easy addition of new LLM providers with standardized interfaces
-- 🤖 **Enhanced Claude Integration**: Thinking blocks visualization, API key authentication, optional SDK for licensing flexibility
-- 🎨 **TUI Improvements**: Multiline input support, ESC interrupt for aborting responses, improved paste handling, dynamic provider display
-- 🛡️ **Tool Permission System**: Integrated permission callbacks for safe tool execution across all providers
-- 🛠️ **SDK Error Handling**: Graceful handling of OAuth failures, no process.exit(1) crashes, benign JSON parsing error tolerance
-- ⚙️ **Provider Management**: Dynamic loading, health checks, persistent default provider configuration
-- 📝 **Comprehensive Documentation**: TUI components, provider abstraction details, developer guides for custom providers
+- 🤝 **Innovation #47: Multi-Agent Collaborative System**: AI agents can now communicate, collaborate, and reason together through persistent message queues
+- 📡 **ZeroMQ Pub/Sub Infrastructure**: Event-driven messaging with zero polling overhead
+- 🔄 **Persistent Message Queues**: Discourse survives session restarts; "the debate survives the debaters"
+- 🛡️ **Yossarian Protocol**: Named rate-limiting to prevent AI agent infinite loops
+- 🔗 **Dual LLM Agent Messaging**: Unified tools for both Claude MCP and Gemini ADK agent communication
+- 🏷️ **Agent Aliases**: Human-readable aliases (e.g., `opus1`, `sonnet2`) for easier agent identification
 
-**Impact**: Both Claude and Gemini now work at full capability with unified UX. Sets foundation for future LLM integrations with extensible architecture.
+**Impact**: Validated through actual agent debate — two AI agents debated whether the system deserved innovation status, using the system itself. Key insight: *"The discourse is what persists. The agents are execution contexts."*
 
-**Previous Releases**: [v2.4.2 - Documentation & Stability](https://github.com/mirzahusadzic/cogx/releases/tag/v2.4.2) | [v2.4.0 - Production Excellence](https://github.com/mirzahusadzic/cogx/releases/tag/v2.4.0) | [v2.0.0 - Σ (Sigma) Infinite Context](https://github.com/mirzahusadzic/cogx/releases/tag/v2.0.0)
+**Previous Releases**: [v2.5.1 - Gemini Integration](https://github.com/mirzahusadzic/cogx/releases/tag/v2.5.1) | [v2.5.0 - Multi-Provider LLM](https://github.com/mirzahusadzic/cogx/releases/tag/v2.5.0) | [v2.4.2 - Documentation & Stability](https://github.com/mirzahusadzic/cogx/releases/tag/v2.4.2) | [v2.0.0 - Σ (Sigma) Infinite Context](https://github.com/mirzahusadzic/cogx/releases/tag/v2.0.0)
 
 ---
 
@@ -81,10 +79,10 @@ CogX requires thoughtful onboarding to build the knowledge graph for your projec
 
 ### 🔬 Innovations & Prior Art
 
-**46 innovations** disclosed as defensive prior art (AGPLv3) to ensure they remain free for all humanity. No entity may patent these innovations.
+**47 innovations** disclosed as defensive prior art (AGPLv3) to ensure they remain free for all humanity. No entity may patent these innovations.
 
 <details>
-<summary><b>📜 View Complete Innovation List (Innovations #1-46)</b></summary>
+<summary><b>📜 View Complete Innovation List (Innovations #1-47)</b></summary>
 
 <br>
 
@@ -154,6 +152,9 @@ CogX requires thoughtful onboarding to build the knowledge graph for your projec
 - **Periodic Overlay Persistence**: Automatic flush every 5 turns preventing data loss in short sessions, cleanup flush on TUI exit/unmount guaranteeing data preservation
 - **Session Forwarding for Compressed Sessions**: Automatic forwarding of `--session-id` to compressed session via `.sigma/{id}.state.json` state detection
 - **Interactive TUI with Real-Time Lattice Visualization**: Production-ready terminal interface with live overlay status bar, lattice statistics, token tracking, persistent scroll history
+
+**Published**: December 3, 2025 — [DOI: 10.5281/zenodo.17807587](https://zenodo.org/records/17807587)
+- **Multi-Agent Collaborative System (Innovation #47)**: ZeroMQ pub/sub infrastructure with persistent message queues enabling AI agent collaboration across ephemeral sessions. Includes Yossarian Protocol rate limiting, dual LLM support (Claude MCP + Gemini ADK), and agent registry with heartbeat monitoring. Key insight: "The discourse is what persists. The agents are execution contexts."
 
 </details>
 
