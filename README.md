@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17807587.svg)](https://doi.org/10.5281/zenodo.17807587)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18002801.svg)](https://doi.org/10.5281/zenodo.18002801)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 **Software Engineer | AI Researcher | Open Source Contributor**
@@ -26,10 +26,12 @@ Every act of reasoning reduces to two primitive operations—**Meet (∧): findi
 ### The Architecture
 
 **Dual-Lattice System:**
+
 - **Project Lattice (PGC)**: Content-addressable knowledge graph with 7-dimensional overlays (Structure, Security, Lineage, Mission, Operational, Mathematical, Coherence)
 - **Conversation Lattice (Σ)**: Real-time conversation indexing with intelligent compression, enabling infinite context across unlimited sessions
 
 **Mathematical Foundation:**
+
 - Every dependency query is a **Meet (∧)** operation traversing to common ancestors
 - Every synthesis is a **Join (∨)** operation building higher abstractions
 - Knowledge compounds through lattice algebra: `O1 ∩ O2`, `O4 ~ "verification"`
@@ -48,41 +50,41 @@ CogX requires thoughtful onboarding to build the knowledge graph for your projec
 
 ### 🏆 Recent Achievements
 
-**🎯 [COGNITION Σ CLI v2.6.0 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v2.6.0)** — Multi-Agent Collaboration (Innovation #47)
+**🎯 [COGNITION Σ CLI v2.6.2 Released](https://github.com/mirzahusadzic/cogx/releases/tag/v2.6.2)** — Manager/Worker Delegation
 
-**December 3, 2025** — Platform transformation from single-agent to multi-agent coordination:
+**December 20, 2025** — Robust multi-agent collaboration and LLM modernization:
 
-- 🤝 **Innovation #47: Multi-Agent Collaborative System**: AI agents can now communicate, collaborate, and reason together through persistent message queues
-- 📡 **ZeroMQ Pub/Sub Infrastructure**: Event-driven messaging with zero polling overhead
-- 🔄 **Persistent Message Queues**: Discourse survives session restarts; "the debate survives the debaters"
-- 🛡️ **Yossarian Protocol**: Named rate-limiting to prevent AI agent infinite loops
-- 🔗 **Dual LLM Agent Messaging**: Unified tools for both Claude MCP and Gemini ADK agent communication
-- 🏷️ **Agent Aliases**: Human-readable aliases (e.g., `opus1`, `sonnet2`) for easier agent identification
+- 🤝 **Manager/Worker Delegation**: Formal delegation flow with explicit acceptance criteria and unified task tracking via `SigmaTaskUpdate`.
+- ⚡ **Gemini 3.0 Flash Default**: Weaved Gemini 3.0 Flash into the core as the new default model for faster, more capable reasoning.
+- 🤖 **OpenAI Agents SDK Support**: Full support for the OpenAI Agents SDK with workbench auto-configuration.
+- 📊 **Unified Task Management**: Single source of truth for task tracking across Claude, Gemini, and OpenAI providers.
+- ⏱️ **Temporal Grounding**: Dynamic timestamps injected into system fingerprints for better temporal awareness.
 
-**Impact**: Validated through actual agent debate — two AI agents debated whether the system deserved innovation status, using the system itself. Key insight: *"The discourse is what persists. The agents are execution contexts."*
+**Impact**: Enhances agent reliability through structured delegation and modernizes the LLM stack with latest-generation models.
 
-**Previous Releases**: [v2.5.1 - Gemini Integration](https://github.com/mirzahusadzic/cogx/releases/tag/v2.5.1) | [v2.5.0 - Multi-Provider LLM](https://github.com/mirzahusadzic/cogx/releases/tag/v2.5.0) | [v2.4.2 - Documentation & Stability](https://github.com/mirzahusadzic/cogx/releases/tag/v2.4.2) | [v2.0.0 - Σ (Sigma) Infinite Context](https://github.com/mirzahusadzic/cogx/releases/tag/v2.0.0)
+**Previous Releases**: [v2.6.0 - Multi-Agent Collaboration](https://github.com/mirzahusadzic/cogx/releases/tag/v2.6.0) | [v2.5.1 - Gemini Integration](https://github.com/mirzahusadzic/cogx/releases/tag/v2.5.1) | [v2.5.0 - Multi-Provider LLM](https://github.com/mirzahusadzic/cogx/releases/tag/v2.5.0) | [v2.4.2 - Documentation & Stability](https://github.com/mirzahusadzic/cogx/releases/tag/v2.4.2) | [v2.0.0 - Σ (Sigma) Infinite Context](https://github.com/mirzahusadzic/cogx/releases/tag/v2.0.0)
 
 ---
 
 ### ✨ Key Features
 
-- **🤖 Multi-Provider LLM Support**: Claude (Anthropic) and Gemini (Google) with unified UX, thinking blocks, and extensible architecture for future providers
+- **🤝 Multi-Agent Collaboration**: Persistent message queues enabling asynchronous agent-to-agent communication (v2.6.0)
+- **📋 Manager/Worker Delegation**: Structured task assignment with explicit acceptance criteria and auto-verification (v2.6.2)
+- **🤖 Multi-Provider LLM Support**: Deep integration with Claude (Anthropic), Gemini 3.0 Flash (Google), and OpenAI Agents SDK
 - **🔒 Cryptographic Verification**: Content-addressable storage with SHA-256 hashes ensures every fact is traceable and tamper-proof
 - **🧠 Dual-Lattice Memory**: Project knowledge (PGC) meets conversation memory (Σ) for context-aware AI with infinite memory
-- **📊 7-Dimensional Analysis**: Multi-overlay system analyzes structure, security, dependencies, mission, operations, proofs, and coherence
-- **🔄 Intelligent Compression**: Preserves high-value insights while discarding noise when approaching context limits (150K tokens)
-- **⚡ Production Scale**: Successfully analyzed 55K+ line codebases with sub-second semantic queries
-- **🛡️ Self-Defending Architecture**: Mathematical resistance to adversarial inputs and semantic drift detection
+- **📊 7-Dimensional Analysis**: Multi-overlay system (O₁-O₇) for structure, security, lineage, mission, operations, proofs, and coherence
+- **🔄 Intelligent Compression**: Preserves high-value insights while discarding noise when approaching context limits (200K tokens)
+- **⚡ Production Scale**: Successfully analyzed 87K+ line codebases with sub-second semantic queries
 
 ---
 
 ### 🔬 Innovations & Prior Art
 
-**47 innovations** disclosed as defensive prior art (AGPLv3) to ensure they remain free for all humanity. No entity may patent these innovations.
+**48 innovations** disclosed as defensive prior art (AGPLv3) to ensure they remain free for all humanity. No entity may patent these innovations.
 
 <details>
-<summary><b>📜 View Complete Innovation List (Innovations #1-47)</b></summary>
+<summary><b>📜 View Complete Innovation List (Innovations #1-48)</b></summary>
 
 <br>
 
@@ -119,31 +121,36 @@ CogX requires thoughtful onboarding to build the knowledge graph for your projec
 - **Markdown Parser with Meta Properties**: Hierarchical AST with structuralHash and position tracking
 - **Overlay Invalidation System**: Automatic cascade invalidation of dependent overlays
 
-**Post-Publication Additions (Innovations #25-38):**
+**Post-Publication Additions (Innovations #25-48):**
 
 **Published**: October 27, 2025
+
 - **Context Sampling Function (Σ)**: Efficient lattice traversal for relevant knowledge extraction (emerged through Claude Code integration)
 
 **Published**: October 28, 2025
+
 - **Monument 4.7: The Shadow**: Dual embedding system for structural and semantic signatures enabling both code pattern matching and mission alignment queries
 - **Monument 5.1: Lattice-aware Gaussian Weighting**: Pure lattice-based coherence using Gaussian statistics + graph centrality, eliminating all hardcoded constants (weight formula: w = log10(deps+1) × max(0.1, 1.0 + z_score))
 
 **Published**: October 31, 2025
+
 - **Lattice Algebra System**: Boolean query operations across overlays with ASCII syntax (O1 ∩ O2, O1 ∪ O2, O1 - O2, O2[critical], O4 ~ "verification")
 - **Multi-Overlay Document Routing**: Intelligent document classification using confidence thresholds with automatic overlay generation
 - **Complete 7-Overlay System**: Full implementation of O₁ (Structure), O₂ (Security), O₃ (Lineage), O₄ (Mission), O₅ (Operational), O₆ (Mathematical), O₇ (Coherence)
 - **O₂ Security Layer Full Implementation**: 20 real threats documented in THREAT_MODEL.md, CVE tracking, security coherence metrics
-- **Foundation Manual (900+ pages)**: Eight comprehensive chapters documenting complete system
+- **Foundation Manual**: Eight comprehensive chapters documenting complete system
 - **OverlayRegistry & Sugar Commands**: Dynamic overlay discovery system with intuitive CLI access
 
 **Published**: November 1, 2025
+
 - **Semantic Q&A System (Block 4 - Self-Cognition)**: Natural language queries across knowledge lattice with cross-overlay synthesis, provenance tracking, and confidence scoring
 - **Frontmatter-Authoritative Classification**: YAML frontmatter metadata treated as ground truth (1.0 confidence) overriding ML-based classification
 - **Generic Documentation Extraction**: WorkflowExtractor generalized for all documentation types with "What is X?" pattern recognition
 - **Quest Operations Logging (Block 2 - Lops)**: Transparency logging infrastructure for quest execution provenance and cPOW lineage tracking
 - **Sacred Pause Formalization**: Oracle Meeting Points documented as three-phase decision framework with depth-based quality gates
 
-**Published**: November 3, 2025 — [DOI: 10.5281/zenodo.17509405](https://zenodo.org/records/17509405)
+**Published**: November 3, 2025
+
 - **Σ (Sigma) Dual-Lattice Architecture**: Project lattice (`.open_cognition/`) ∧ Conversation lattice (`.sigma/`) with Meet operations for semantic alignment scoring across 7 dimensions, enabling stateful AI with infinite context
 - **7-Dimensional Conversation Overlays (O1-O7)**: Real-time conversation indexing mirroring project overlays (O₁-O7) with on-the-fly lattice building from chat turns
 - **Intelligent Context Compression at 150K Tokens**: Importance-based filtering using formula `novelty × 5 + max(alignment_O1..O7) × 0.5` with high-alignment preservation (≥6) and low-value chat discarding
@@ -153,8 +160,13 @@ CogX requires thoughtful onboarding to build the knowledge graph for your projec
 - **Session Forwarding for Compressed Sessions**: Automatic forwarding of `--session-id` to compressed session via `.sigma/{id}.state.json` state detection
 - **Interactive TUI with Real-Time Lattice Visualization**: Production-ready terminal interface with live overlay status bar, lattice statistics, token tracking, persistent scroll history
 
-**Published**: December 3, 2025 — [DOI: 10.5281/zenodo.17807587](https://zenodo.org/records/17807587)
-- **Multi-Agent Collaborative System (Innovation #47)**: ZeroMQ pub/sub infrastructure with persistent message queues enabling AI agent collaboration across ephemeral sessions. Includes Yossarian Protocol rate limiting, dual LLM support (Claude MCP + Gemini ADK), and agent registry with heartbeat monitoring. Key insight: "The discourse is what persists. The agents are execution contexts."
+**Published**: December 3, 2025
+
+- **Multi-Agent Collaborative System**: ZeroMQ pub/sub infrastructure with persistent message queues enabling AI agent collaboration across ephemeral sessions.
+
+**Published**: December 20, 2025
+
+- **Manager/Worker Delegation Architecture**: Implements a robust multi-agent collaboration pattern with explicit acceptance criteria.
 
 </details>
 
@@ -180,12 +192,12 @@ All innovations in Open Cognition are published under **AGPLv3** and disclosed a
 
 - **GitHub**: [@mirzahusadzic](https://github.com/mirzahusadzic)
 - **Email**: <mirza.husadzic@proton.me>
-- **Project**: [CogX Repository](https://github.com/mirzahusadzic/cogx)
+- **Project Repository**: [CogX](https://github.com/mirzahusadzic/cogx), [Cognition Σ CLI](https://github.com/mirzahusadzic/cogx/tree/main/src/cognition-cli), [eGemma](https://github.com/mirzahusadzic/egemma), [AI Echo React Chat](https://github.com/mirzahusadzic/aiecho-react-chat)
 
 ---
 
 <div align="center">
 
-*Building tools that ground AI reasoning in verifiable truth*
+_Building tools that ground AI reasoning in verifiable truth_
 
 </div>
