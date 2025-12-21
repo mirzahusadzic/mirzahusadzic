@@ -174,9 +174,10 @@ CogX requires thoughtful onboarding to build the knowledge graph for your projec
 
 ### 💡 Tech Stack
 
-- **Core:** TypeScript • Node.js • LanceDB • Git-inspired Storage
-- **Parsing:** Native AST • eGemma (Python) • SLM/LLM fallbacks
-- **AI Integration:** Vector Embeddings • Claude Code Protocol
+- **Core:** TypeScript • Node.js • **ZeroMQ (Pub/Sub)** • LanceDB • Git-inspired Storage
+- **AI Ecosystem:** **Google ADK** • **Claude Agent SDK** • **Claude MCP** • **OpenAI Agents SDK**
+- **Architecture:** **Dual-Lattice (Σ)** • **Manager/Worker Delegation** • **PGC**
+- **Parsing:** Native AST • **eGemma (Python)** • SLM/LLM fallbacks
 
 ---
 
