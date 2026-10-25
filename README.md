@@ -22,12 +22,14 @@ software and test behavior.
 ## Current work
 
 [Tendora](https://github.com/mirzahusadzic/tendora) is my prototype for
-building and questioning knowledge through ordinary language, now at v0.2.0
-under the Apache License 2.0. People write plain-language statements by
-role; Tendora retains their semantic readings, answers only what the
-statements support through deterministic reasoning, names the statements
-behind every answer, and keeps unresolved connections open for further
-development. Its bundled demo replays offline.
+building and questioning knowledge through ordinary language, under the Apache
+License 2.0. People write plain-language statements by role; Tendora retains
+their semantic readings, answers only what the statements support through
+deterministic reasoning, names the statements behind every answer, and keeps
+unresolved connections open for further development. Its Socratic methods
+question the statements themselves (what would follow from a supposition,
+where they refute one another, what a term means by what they say of it) and
+save nothing. Its bundled demo replays offline.
 
 Tendora is one part of a wider architecture for carrying meaning into
 operative forms and governing authority across systems; the architecture and
