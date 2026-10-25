@@ -21,14 +21,18 @@ software and test behavior.
 
 ## Current work
 
-My current work combines an architecture for carrying meaning into operative
-forms and governing authority across systems with a prototype for building and
-questioning knowledge through ordinary language. The prototype retains semantic
-readings, derives attributed answers through deterministic reasoning, and
-records unresolved connections for further development.
+[Tendora](https://github.com/mirzahusadzic/tendora) is my prototype for
+building and questioning knowledge through ordinary language, now at v0.2.0
+under the Apache License 2.0. People write plain-language statements by
+role; Tendora retains their semantic readings, answers only what the
+statements support through deterministic reasoning, names the statements
+behind every answer, and keeps unresolved connections open for further
+development. Its bundled demo replays offline.
 
-These are currently private research efforts. Language coverage, transfer
-across domains and integration with the wider protocols remain active work.
+Tendora is one part of a wider architecture for carrying meaning into
+operative forms and governing authority across systems; the architecture and
+its protocols remain private research. Language coverage, transfer across
+domains and integration with those protocols remain active work.
 
 ## When meaning is load-bearing
 
@@ -52,6 +56,10 @@ recipient's requirements, then remove or change a relation and observe the
 result. An observed difference makes the relation a candidate; the checks below
 establish whether it carries the required consequence through to the receiving
 system.
+
+Tendora applies this test to each variable of a statement in its corpus
+fidelity check; [Load-bearing as situated meaning](https://github.com/mirzahusadzic/tendora/blob/main/docs/load-bearing.md)
+gives the formalization below with its implementation there.
 
 Importance, repetition, source-grounding and graph degree do not earn the hard hat.
 
@@ -245,7 +253,8 @@ The phrase stuck.
   inspectable across sessions.
 - **Meaning and inference:** Testing how questions, roles and assumptions change
   interpretation, including semantic acquisition with Abstract Meaning
-  Representation (AMR) and deterministic reasoning.
+  Representation (AMR) and deterministic reasoning, in
+  [Tendora](https://github.com/mirzahusadzic/tendora).
 - **Semantic decomposition and recompilation:** Unfolding conjectures into
   explicit relations, recomposing them into working artifacts, and testing
   whether the required meaning governs behavior across that change of form.
