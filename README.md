@@ -21,9 +21,9 @@ software and test behavior.
 
 ## Current work
 
-[Tendora](https://github.com/mirzahusadzic/tendora) is my prototype for
-building and questioning knowledge through ordinary language, under the Apache
-License 2.0. People write plain-language statements by role; Tendora retains
+[Tendora](https://github.com/mirzahusadzic/tendora) is my open-source
+prototype (Apache License 2.0) for building and questioning knowledge through
+ordinary language. People write plain-language statements by role; Tendora retains
 their semantic readings, answers only what the statements support through
 deterministic reasoning, names the statements behind every answer, and keeps
 unresolved connections open for further development. Its Socratic methods
@@ -34,7 +34,7 @@ save nothing. Its bundled demo replays offline.
 Tendora is one part of a wider architecture for carrying meaning into
 operative forms and governing authority across systems; the architecture and
 its protocols remain private research. Language coverage, transfer across
-domains and integration with those protocols remain active work.
+domains and integration with those protocols are still active work.
 
 ## When meaning is load-bearing
 
@@ -61,7 +61,7 @@ system.
 
 Tendora applies this test to each variable of a statement in its corpus
 fidelity check; [Load-bearing as situated meaning](https://github.com/mirzahusadzic/tendora/blob/main/docs/load-bearing.md)
-gives the formalization below with its implementation there.
+documents the formalization below and how Tendora implements it.
 
 Importance, repetition, source-grounding and graph degree do not earn the hard hat.
 
