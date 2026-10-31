@@ -49,6 +49,8 @@ and continues it as a material world. Nine preserved worlds are each read by a
 critic with exact citations, and the
 [workbench](https://mirzahusadzic.github.io/after-the-poem/) shows them.
 
+Two infrastructure repos support that work. [Egemma](https://github.com/mirzahusadzic/egemma) runs the models locally behind one service — embeddings, semantic parsing, corpus-trained transformers, summarization, and judgments held to a JSON schema — so nothing under study is sent to a hosted API. [Codex Unified Model Router](https://github.com/mirzahusadzic/codex-unified-model-router) is the harness the work is built with: it runs Codex under DeepSeek, Claude, Muse Spark, or OpenAI and switches in place, with mixed-history repair and bounded recovery. Training-tier sessions stay separate from native OpenAI and Claude sessions.
+
 ## When meaning is load-bearing
 
 I use “load-bearing” as a local, counterfactual test: fix the setting and the
@@ -94,7 +96,3 @@ architectural intent tied to what ships.
 If you're working on inspectable reasoning, semantic acquisition or systems that
 have to work outside the demo, I'm happy to compare notes.
 
----
-
-Original README text © 2026 Mirza Husadzic, licensed under [CC BY 4.0](LICENSE).
-Separately attributed material retains its own terms.
