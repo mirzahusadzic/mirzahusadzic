@@ -43,6 +43,12 @@ rules, not a model, read the verdict. Its examples are real experiments with
 Gemma 4, their predictions written before the first call and every run kept.
 It installs from PyPI as `midwife` (Apache License 2.0).
 
+[After the Poem](https://github.com/mirzahusadzic/after-the-poem) studies what
+crosses over when a model receives a poem as a conjecture, with an empty world,
+and continues it as a material world. Nine preserved worlds are each read by a
+critic with exact citations, and the
+[workbench](https://mirzahusadzic.github.io/after-the-poem/) shows them.
+
 ## When meaning is load-bearing
 
 I use “load-bearing” as a local, counterfactual test: fix the setting and the
