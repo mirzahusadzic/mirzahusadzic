@@ -41,7 +41,8 @@ domains and integration with those protocols are still active work.
 rests on the evidence it is said to rest on. A frame declares the relation;
 fixed trials cut or change it, a model reads each trial again, and fixed
 rules, not a model, read the verdict. Its examples are real experiments with
-Gemma 4, their predictions written before the first call and every run kept.
+Gemma 4 and Muse Spark, their predictions written before the first call and
+every run kept.
 It installs from PyPI as `midwife` (Apache License 2.0).
 
 [After the Poem](https://github.com/mirzahusadzic/after-the-poem) studies what
@@ -50,7 +51,7 @@ and continues it as a material world. Nine preserved worlds are each read by a
 critic with exact citations, and the
 [workbench](https://mirzahusadzic.github.io/after-the-poem/) shows them.
 
-Two infrastructure repos support that work. [Egemma](https://github.com/mirzahusadzic/egemma) runs the models locally behind one service — embeddings, semantic parsing, corpus-trained transformers, summarization, and judgments held to a JSON schema — so nothing under study is sent to a hosted API. [Unified Model Router](https://github.com/mirzahusadzic/unified-model-router) puts one Responses API in front of OpenAI, Claude, DeepSeek, Muse Spark and other OpenRouter models, so each client speaks one protocol. Codex, the harness the work is built with, switches between them in place, with mixed-history repair and bounded recovery, and Gadfly's readers reach hosted models through the same API. Training-tier sessions stay separate from native OpenAI and Claude sessions, and a caller can keep its requests off endpoints that train.
+Two infrastructure repos support that work. [eGemma](https://github.com/mirzahusadzic/egemma) runs the models locally behind one service — embeddings, semantic parsing, corpus-trained transformers, summarization, and judgments held to a JSON schema — so nothing under study is sent to a hosted API. [Unified Model Router](https://github.com/mirzahusadzic/unified-model-router) puts one Responses API in front of OpenAI, Claude, DeepSeek, Muse Spark and other OpenRouter models, so each client speaks one protocol. Codex, the router's first client, switches between them in place, with mixed-history repair and bounded recovery, and Gadfly's readers reach hosted models through the same API. Training-tier sessions stay separate from native OpenAI and Claude sessions, and a caller can keep its requests off endpoints that train.
 
 ## When meaning is load-bearing
 
@@ -64,6 +65,8 @@ Importance, repetition, source-grounding and graph degree do not earn the hard h
 
 The essay, with its working formalization and a worked example, lives with
 Gadfly: [When meaning is load-bearing](https://mirzahusadzic.github.io/gadfly/load-bearing).
+A [working paper](https://doi.org/10.5281/zenodo.23962158) turns it into
+Gadfly's method and reports the evidence of its examples, misses included.
 Tendora applies the test to each variable of a statement in its corpus
 fidelity check ([Load-bearing as situated meaning](https://github.com/mirzahusadzic/tendora/blob/main/docs/load-bearing.md)).
 
