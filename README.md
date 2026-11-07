@@ -1,6 +1,6 @@
 # Mirza Husadzic
 
-**Software engineer · AI systems architect**
+**Software engineer · AI systems architect · Independent researcher**
 
 I build AI systems whose sources, assumptions and failure modes remain
 inspectable.
@@ -19,56 +19,28 @@ across boundaries between people, AI systems and tools.
 Sustained human–AI engineering collaboration is how I investigate ideas, build
 software and test behavior.
 
-## Current work
+## Work
 
-[Tendora](https://github.com/mirzahusadzic/tendora) is my prototype for
-building and questioning knowledge through ordinary language. People write
-plain-language statements by role; Tendora retains their semantic readings,
-answers only what the statements support through deterministic reasoning, names
-the statements behind every answer, and keeps unresolved connections open for
-further development. Its Socratic methods question the statements themselves
-(what would follow from a supposition, where they refute one another, what a
-term means by what they say of it) and save nothing. Its public demo bundles the
-engine, free to run for evaluation and research, with a payments on-call corpus
-and the evidence of what its answers rest on (Apache 2.0); it replays offline.
+- [frame-loop](https://github.com/mirzahusadzic/claude-frame-loop): a semantic workflow linter for Claude Code; the person's approved words are the frame, and only a mismatch reaches them. Early alpha. [![frame-loop release](https://img.shields.io/github/v/tag/mirzahusadzic/claude-frame-loop?sort=semver&label=frame-loop&logo=github&logoColor=white)](https://github.com/mirzahusadzic/claude-frame-loop/tags)
+- [Gadfly](https://github.com/mirzahusadzic/gadfly): tests whether a decision rests on the evidence it is said to rest on. [![midwife on PyPI](https://img.shields.io/pypi/v/midwife?label=midwife&logo=pypi&logoColor=white)](https://pypi.org/project/midwife/)
+- [Tendora](https://github.com/mirzahusadzic/tendora): building and questioning knowledge through ordinary language, with answers only from what the statements support. A prototype with a public demo.
+- [After the Poem](https://github.com/mirzahusadzic/after-the-poem): where this work began; a model receives a poem as a conjecture and continues it as a world ([workbench](https://mirzahusadzic.github.io/after-the-poem/)).
+- Underneath: [eGemma](https://github.com/mirzahusadzic/egemma) runs the models locally, and the [Unified Model Router](https://github.com/mirzahusadzic/unified-model-router) is one API in front of the hosted ones.
 
-Tendora is one part of a wider architecture for carrying meaning into
-operative forms and governing authority across systems; the architecture and
-its protocols remain private research. Language coverage, transfer across
-domains and integration with those protocols are still active work.
+## Papers
 
-[Gadfly](https://github.com/mirzahusadzic/gadfly) tests whether a decision
-rests on the evidence it is said to rest on. A frame declares the relation;
-fixed trials cut or change it, a model reads each trial again, and fixed
-rules, not a model, read the verdict. Its examples are real experiments with
-Gemma 4 and Muse Spark, their predictions written before the first call and
-every run kept.
-It installs from PyPI as `midwife` (Apache License 2.0).
+Working papers on Zenodo, under CC BY 4.0; each DOI resolves to the latest
+version.
 
-[After the Poem](https://github.com/mirzahusadzic/after-the-poem) studies what
-crosses over when a model receives a poem as a conjecture, with an empty world,
-and continues it as a material world. Nine preserved worlds are each read by a
-critic with exact citations, and the
-[workbench](https://mirzahusadzic.github.io/after-the-poem/) shows them.
-
-Two infrastructure repos support that work. [eGemma](https://github.com/mirzahusadzic/egemma) runs the models locally behind one service — embeddings, semantic parsing, corpus-trained transformers, summarization, and judgments held to a JSON schema — so nothing under study is sent to a hosted API. [Unified Model Router](https://github.com/mirzahusadzic/unified-model-router) puts one Responses API in front of OpenAI, Claude, DeepSeek, Muse Spark and other OpenRouter models, so each client speaks one protocol. Codex, the router's first client, switches between them in place, with mixed-history repair and bounded recovery, and Gadfly's readers reach hosted models through the same API. Training-tier sessions stay separate from native OpenAI and Claude sessions, and a caller can keep its requests off endpoints that train.
-
-## When meaning is load-bearing
-
-I use “load-bearing” as a local, counterfactual test: fix the setting and the
-recipient's requirements, then remove or change a relation and observe the
-result. A difference makes the relation only a candidate. It carries when the
-required consequence reaches the receiving system, a change of presentation
-leaves it intact, and no hidden fallback stands in for it.
-
-Importance, repetition, source-grounding and graph degree do not earn the hard hat.
-
-The essay, with its working formalization and a worked example, lives with
-Gadfly: [When meaning is load-bearing](https://mirzahusadzic.github.io/gadfly/load-bearing).
-A [working paper](https://doi.org/10.5281/zenodo.23962158) turns it into
-Gadfly's method and reports the evidence of its examples, misses included.
-Tendora applies the test to each variable of a statement in its corpus
-fidelity check ([Load-bearing as situated meaning](https://github.com/mirzahusadzic/tendora/blob/main/docs/load-bearing.md)).
+- **Holding the Thread: An Open Frame for Checking an Agent's Work Against the
+  Person's Own Words** (2026), on frame-loop.
+  [doi:10.5281/zenodo.24044462](https://doi.org/10.5281/zenodo.24044462)
+- **Policy at the Junction: The Unified Model Router as a Narrow Waist** (2026).
+  [doi:10.5281/zenodo.24014212](https://doi.org/10.5281/zenodo.24014212)
+- **When Meaning Is Load-Bearing: Testing Whether a Decision Rests on Its
+  Declared Evidence** (2026), Gadfly's method, with its
+  [essay](https://mirzahusadzic.github.io/gadfly/load-bearing).
+  [doi:10.5281/zenodo.23962158](https://doi.org/10.5281/zenodo.23962158)
 
 ## Current explorations
 
@@ -77,13 +49,10 @@ fidelity check ([Load-bearing as situated meaning](https://github.com/mirzahusad
   inspectable across sessions.
 - **Meaning and inference:** Testing how questions, roles and assumptions change
   interpretation, including semantic acquisition with Abstract Meaning
-  Representation (AMR) and deterministic reasoning, in
-  [Tendora](https://github.com/mirzahusadzic/tendora).
-- **Semantic decomposition and recompilation:** Unfolding conjectures into
-  explicit relations, recomposing them into working artifacts, and testing
-  whether the required meaning governs behavior across that change of form.
+  Representation (AMR) and deterministic reasoning, in Tendora.
 - **Authority across boundaries:** Making grants, scope, expiry, revocation and
-  return obligations explicit when people, AI systems and tools delegate work.
+  return obligations explicit when people, AI systems and tools delegate work;
+  frame-loop and the router hold the first parts of it.
 
 ## Background
 
@@ -99,4 +68,3 @@ architectural intent tied to what ships.
 
 If you're working on inspectable reasoning, semantic acquisition or systems that
 have to work outside the demo, I'm happy to compare notes.
-
