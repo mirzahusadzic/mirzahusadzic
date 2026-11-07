@@ -34,13 +34,13 @@ version.
 
 - **Holding the Thread: An Open Frame for Checking an Agent's Work Against the
   Person's Own Words** (2026), on frame-loop.
-  [doi:10.5281/zenodo.24044462](https://doi.org/10.5281/zenodo.24044462)
+  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24044462.svg)](https://doi.org/10.5281/zenodo.24044462)
 - **Policy at the Junction: The Unified Model Router as a Narrow Waist** (2026).
-  [doi:10.5281/zenodo.24014212](https://doi.org/10.5281/zenodo.24014212)
+  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24014211.svg)](https://doi.org/10.5281/zenodo.24014211)
 - **When Meaning Is Load-Bearing: Testing Whether a Decision Rests on Its
   Declared Evidence** (2026), Gadfly's method, with its
   [essay](https://mirzahusadzic.github.io/gadfly/load-bearing).
-  [doi:10.5281/zenodo.23962158](https://doi.org/10.5281/zenodo.23962158)
+  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23962158.svg)](https://doi.org/10.5281/zenodo.23962158)
 
 ## Current explorations
 
@@ -66,5 +66,6 @@ That experience shapes how I direct AI-assisted engineering: framing problems,
 shaping context, guiding implementation, evaluating results and keeping
 architectural intent tied to what ships.
 
-If you're working on inspectable reasoning, semantic acquisition or systems that
-have to work outside the demo, I'm happy to compare notes.
+If you're working on inspectable reasoning, agents that have to answer to a
+person's own words, or systems that have to work outside the demo, I'm happy to
+compare notes.
