@@ -69,3 +69,5 @@ architectural intent tied to what ships.
 If you're working on inspectable reasoning, agents that have to answer to a
 person's own words, or systems that have to work outside the demo, I'm happy to
 compare notes.
+
+[LinkedIn](https://www.linkedin.com/in/mirzahusadzic/) · [ORCID](https://orcid.org/0009-0004-8359-4090)
