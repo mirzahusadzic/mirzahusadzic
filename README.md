@@ -32,6 +32,9 @@ question and change what the work is for.
 Working papers on Zenodo, under CC BY 4.0; each DOI resolves to the latest
 version.
 
+- **The River and Its Rules: Rendering a Corpus's Co-activation and Testing
+  What It Makes** (2026), on Tendora's render.
+  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24094773.svg)](https://doi.org/10.5281/zenodo.24094773)
 - **Holding the Thread: An Open Frame for Checking an Agent's Work Against the
   Person's Own Words** (2026), on frame-loop.
   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24044462.svg)](https://doi.org/10.5281/zenodo.24044462)
