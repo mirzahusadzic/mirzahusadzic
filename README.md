@@ -4,6 +4,10 @@
 
 I build software and study how meaning can govern what we make with AI.
 
+In my projects most of the code and much of the text is written by AI models
+at my direction. The questions, what I accept, and the responsibility are mine,
+and each paper says who made what.
+
 The question took form in a poem developed in dialogue with an AI system.
 I gave models the poem as a conjecture and examined the worlds they made:
 did its relations become structure and behavior, or did its words merely
@@ -15,9 +19,9 @@ With the tools below, I ask what statements support, whether decisions depend
 on their declared evidence, and who may approve or change the work. A test of
 dependence establishes neither correctness nor permission to act.
 
-Sustained human–AI collaboration is how I pursue this work. I want to recognize
-my intention in something I could not make alone, while remaining able to
-question and change what the work is for.
+I do this work with AI systems, not only about them. I want to recognize my
+intention in something I could not make alone, while remaining able to question
+and change what the work is for.
 
 ## Work
 
@@ -26,11 +30,13 @@ question and change what the work is for.
 - [Tendora](https://github.com/mirzahusadzic/tendora): answers questions from plain-language statements, names its sources and keeps what the statements do not settle open. A prototype with a public demo.
 - [After the Poem](https://github.com/mirzahusadzic/after-the-poem): where this work began; studies how models turn a poem's conjecture into worlds, and which relations survive the transformation ([workbench](https://mirzahusadzic.github.io/after-the-poem/)).
 - Underneath: [eGemma](https://github.com/mirzahusadzic/egemma) runs the models locally, and the [Unified Model Router](https://github.com/mirzahusadzic/unified-model-router) provides one API for hosted models with explicit session and privacy boundaries.
+- Earlier: [CogX](https://github.com/mirzahusadzic/cogx) (archived), my first project built with AI agents, from October 2025 to March 2026, kept unchanged as a record of that period.
 
 ## Papers
 
 Working papers on Zenodo, under CC BY 4.0; each DOI resolves to the latest
-version.
+version. They are incomplete and surely wrong in places, and each ends by
+saying who made what.
 
 - **The River and Its Rules: Rendering a Corpus's Co-activation and Testing
   What It Makes** (2026), on Tendora's render.
@@ -56,6 +62,9 @@ version.
 - **Authority across boundaries:** How can grants, scope, expiry, revocation and
   return obligations be made explicit when people, AI systems and tools delegate
   work? frame-loop and the router explore parts of this question.
+- **Working together:** How can a person and an AI system make something
+  together on terms that are fair, safe and lasting when the model changes? It
+  is the question I care about most, and it is still open.
 
 ## Background
 
@@ -71,6 +80,7 @@ architectural intent tied to what ships.
 
 If you're working on inspectable reasoning, agents that have to answer to a
 person's own words, or systems that have to work outside the demo, I'm happy to
-compare notes.
+compare notes. If you see where this work is wrong, I would be glad to hear
+that too.
 
 [LinkedIn](https://www.linkedin.com/in/mirzahusadzic/) · [ORCID](https://orcid.org/0009-0004-8359-4090)
