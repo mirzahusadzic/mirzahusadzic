@@ -26,7 +26,7 @@ and change what the work is for.
 ## Work
 
 - [frame-loop](https://github.com/mirzahusadzic/claude-frame-loop): a semantic workflow linter for Claude Code; checks work against a person's confirmed requirements and uses Gadfly to test whether the reader's verdict depends on them. Early alpha. [![frame-loop release](https://img.shields.io/github/v/tag/mirzahusadzic/claude-frame-loop?sort=semver&label=frame-loop&logo=github&logoColor=white)](https://github.com/mirzahusadzic/claude-frame-loop/tags)
-- [Crossings](https://github.com/mirzahusadzic/claude-crossings): a Claude Code plugin for what a context cut keeps; keeps what was said, word for word, in plain files on your own disk, and gives the session a door back to it. Early alpha. [![Crossings release](https://img.shields.io/github/v/tag/mirzahusadzic/claude-crossings?sort=semver&label=Crossings&logo=github&logoColor=white)](https://github.com/mirzahusadzic/claude-crossings/tags)
+- [Crossings](https://github.com/mirzahusadzic/claude-crossings): a Claude Code plugin for what a context cut keeps; holds what was said, word for word, in plain files on your own disk, gives the session a door back to it, and carries a small frame of the session's own notes across each cut, each resting on the messages it is about. Early alpha. [![Crossings release](https://img.shields.io/github/v/tag/mirzahusadzic/claude-crossings?sort=semver&label=Crossings&logo=github&logoColor=white)](https://github.com/mirzahusadzic/claude-crossings/tags)
 - [Gadfly](https://github.com/mirzahusadzic/gadfly): tests whether a decision rests on the evidence it is said to rest on. [![midwife on PyPI](https://img.shields.io/pypi/v/midwife?label=midwife&logo=pypi&logoColor=white)](https://pypi.org/project/midwife/)
 - [Tendora](https://github.com/mirzahusadzic/tendora): answers questions from plain-language statements, names its sources and keeps what the statements do not settle open. A prototype with a public demo.
 - [After the Poem](https://github.com/mirzahusadzic/after-the-poem): where this work began; studies how models turn a poem's conjecture into worlds, and which relations survive the transformation ([workbench](https://mirzahusadzic.github.io/after-the-poem/)).
@@ -39,6 +39,9 @@ Working papers on Zenodo, under CC BY 4.0; each DOI resolves to the latest
 version. They are incomplete and surely wrong in places, and each ends by
 saying who made what.
 
+- **For What Purpose? A Model for Human–AI Continuity Through Conversational
+  Convergence** (2026), on Crossings.
+  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24287882.svg)](https://doi.org/10.5281/zenodo.24287882)
 - **The River and Its Rules: Rendering a Corpus's Co-activation and Testing
   What It Makes** (2026), on Tendora's render.
   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24094773.svg)](https://doi.org/10.5281/zenodo.24094773)
@@ -56,7 +59,8 @@ saying who made what.
 
 - **Context and provenance:** How can the basis of an answer remain inspectable
   across sessions and handoffs, and what can still be claimed when its source
-  trail is lost?
+  trail is lost? Crossings explores a part of this question, at the point
+  where a long session is cut and summarized.
 - **Meaning and inference:** How do questions, roles and assumptions change what
   can be inferred, and what must remain open? In Tendora, I explore this through
   Abstract Meaning Representation (AMR) and deterministic reasoning.
